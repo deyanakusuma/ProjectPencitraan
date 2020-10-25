@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8F4BBDBB-76A4-4D61-8F58-BE0EE3A9B521}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Bismillah</RootNamespace>
+    <AssemblyName>Bismillah</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Brightness.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Brightness.Designer.cs">
+      <DependentUpon>Brightness.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cdf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cdf.Designer.cs">
+      <DependentUpon>Cdf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Contrass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contrass.Designer.cs">
+      <DependentUpon>Contrass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DasarBrightness.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DasarBrightness.Designer.cs">
+      <DependentUpon>DasarBrightness.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DasarContrass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DasarContrass.Designer.cs">
+      <DependentUpon>DasarContrass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Equalization.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Equalization.Designer.cs">
+      <DependentUpon>Equalization.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FSobelGrey.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FSobelGrey.Designer.cs">
+      <DependentUpon>FSobelGrey.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FSobelRataGau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FSobelRataGau.Designer.cs">
+      <DependentUpon>FSobelRataGau.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GrafikAutoLevel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GrafikAutoLevel.Designer.cs">
+      <DependentUpon>GrafikAutoLevel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Histogram.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Histogram.Designer.cs">
+      <DependentUpon>Histogram.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kuantisasi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kuantisasi.Designer.cs">
+      <DependentUpon>Kuantisasi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MiniPhotoShopDey.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MiniPhotoShopDey.Designer.cs">
+      <DependentUpon>MiniPhotoShopDey.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NoiseGaussian.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NoiseGaussian.Designer.cs">
+      <DependentUpon>NoiseGaussian.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NoiseGaussian1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NoiseGaussian1.Designer.cs">
+      <DependentUpon>NoiseGaussian1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pdf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pdf.Designer.cs">
+      <DependentUpon>Pdf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Treshold.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Treshold.Designer.cs">
+      <DependentUpon>Treshold.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Brightness.resx">
+      <DependentUpon>Brightness.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cdf.resx">
+      <DependentUpon>Cdf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contrass.resx">
+      <DependentUpon>Contrass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DasarBrightness.resx">
+      <DependentUpon>DasarBrightness.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DasarContrass.resx">
+      <DependentUpon>DasarContrass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Equalization.resx">
+      <DependentUpon>Equalization.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FSobelGrey.resx">
+      <DependentUpon>FSobelGrey.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FSobelRataGau.resx">
+      <DependentUpon>FSobelRataGau.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GrafikAutoLevel.resx">
+      <DependentUpon>GrafikAutoLevel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Histogram.resx">
+      <DependentUpon>Histogram.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kuantisasi.resx">
+      <DependentUpon>Kuantisasi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MiniPhotoShopDey.resx">
+      <DependentUpon>MiniPhotoShopDey.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NoiseGaussian.resx">
+      <DependentUpon>NoiseGaussian.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NoiseGaussian1.resx">
+      <DependentUpon>NoiseGaussian1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pdf.resx">
+      <DependentUpon>Pdf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Treshold.resx">
+      <DependentUpon>Treshold.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
